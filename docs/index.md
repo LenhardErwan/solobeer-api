@@ -11,7 +11,10 @@ Before installing the API make sure
 
 ## Installation
 
-**Run npm install**  
+1. **Clone the project repository**  
+`git clone https://github.com/LenhardErwan/solobeer-api.git`
+
+2. **Run npm install**  
 `npm install`
 
 ## Configuration
@@ -35,6 +38,10 @@ Run the following command:
 ```shell
 npm run start
 ```
+
+## Fill Database
+
+The database will be built automatically when the application starts if the necessary tables are not found. However, you can create the tables yourself and fill them with some examples using the `SoloBeer.sql` file.
 
 ## Documentation
 
