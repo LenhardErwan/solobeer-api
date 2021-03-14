@@ -1,0 +1,8 @@
+site_name: SoloBeer API
+nav:
+ - 'index.md'
+ - 'routes.md'
+ - 'auth.md'
+ - 'app.md'
+theme: readthedocs
+extra_css: [style.css]

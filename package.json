@@ -1,0 +1,31 @@
+{
+	"name": "solobeer",
+	"version": "1.0.0",
+	"description": "JS API for a school project",
+	"main": "app.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node -r dotenv/config app.js",
+		"dev": "nodemon -r dotenv/config app.js"
+	},
+	"repository": {
+    "type": "git",
+    "url": "git+https://github.com/LenhardErwan/solobeer-api.git"
+  },
+	"author": "Lenhard Erwan",
+	"license": "MIT",
+	"bugs": {
+    "url": "https://github.com/LenhardErwan/solobeer-api/issues"
+  },
+  "homepage": "https://github.com/LenhardErwan/solobeer-api#readme",
+	"dependencies": {
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"jsonwebtoken": "^8.5.1",
+		"pg": "^8.5.1"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.7"
+	}
+}
